@@ -22,7 +22,7 @@ for (let i = 0; i < accordian.length; i++) {
 let getstart=document.querySelectorAll(".primary__button");
 getstart[0].addEventListener("click",()=>{
   if(document.getElementsByClassName("email__input")[0].value==="user@gmail.com"){
-     window.open("index.html");
+     window.open("home.html");
   }else{
     alert("Wrong email");
   }
