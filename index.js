@@ -132,6 +132,10 @@ function searchMovieTrailer(movieName, iframId) {
 
 
 window.addEventListener('load',function() {
+    const user = this.localStorage.getItem("netflix-user");
+
+
+    
     init();
     window.addEventListener('scroll', function(){
         // header ui update
