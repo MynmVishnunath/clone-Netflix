@@ -1,4 +1,4 @@
-const apikey = process.env.PUBLIC_TMDB_API_KEY;
+const apikey = "27b84019780e98c116e7c5e57f452acf";
 const apiEndpoint = "https://api.themoviedb.org/3"
 const imgPath = "https://image.tmdb.org/t/p/original";
 
